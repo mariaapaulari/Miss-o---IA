@@ -5,23 +5,30 @@ const caixaResultado = document.querySelector(".caixa-resultado");
 const textoResultado = document.querySelector(".texto-resultado");
 const perguntas = [
   {
-    enunciado: "Pergunta 1",
-    alternativas: ["Alternativa 1", "Alternativa 2"],
+    enunciado: "quais são os movimentos que marcaram a história do brasil",
+    alternativas: ["Revolução Liberal de 1821", "Guerra da Independência do Brasil (1822-1823"],
   },
   {
-    enunciado: "Pergunta 2",
-    alternativas: ["Alternativa 1", "Alternativa 2"],
+    enunciado: "Quais são os dois países que fazem fronteira com o Brasil?",
+    alternativas: ["Argentina", "Uruguai"],
   },
   { 
-    enunciado: "Pergunta 3"
-    alternativas:["Alternativa 1", "Alternativa 2"],
+    enunciado: "Quais são os dois planetas do nosso sistema solar que são gasosos?"
+    alternativas:["Saturno", "Júpiter"],
   },
   {
-    enunciado: "Pergunta 4"
-    alternativas: ["Alternativa 1", "Alternativa 2"],
+    enunciado: "Quais são os dois oceanos que banham a América do Sul?"
+    alternativas: ["Oceano Atlântico", "Oceano Pacífico"],
   },
   {
-    enunciado: "Pergunta 5"
-    alternativas:["Alternativa 1", "Alternativa 2"],
+    enunciado: "Quais são os dois países que fazem parte do Reino Unido?"
+    alternativas:["Inglaterra", "Escócia"],
   },
 ];
+let atual = 0;
+let perguntaAtual;
+function mostraPergunta() {
+  perguntaAtual = perguntas[atual];
+  caixaPerguntas.textContent = perguntaAtual.enunciado;
+}
+mostraPergunta();
