@@ -5,8 +5,8 @@ const caixaResultado = document.querySelector(".caixa-resultado");
 const textoResultado = document.querySelector(".texto-resultado");
 const perguntas = [
   {
-    enunciado: "quais são os movimentos que marcaram a história do brasil",
-    alternativas: ["Revolução Liberal de 1821", "Guerra da Independência do Brasil (1822-1823"],
+    enunciado: "Quais são os movimentos que marcaram a história do brasil",
+    alternativas: ["Revolução Liberal de (1821)", "Guerra da Independência do Brasil (1822-1823)"],
   },
   {
     enunciado: "Quais são os dois países que fazem fronteira com o Brasil?",
