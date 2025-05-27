@@ -13,15 +13,15 @@ const perguntas = [
     alternativas: ["Argentina", "Uruguai"],
   },
   { 
-    enunciado: "Quais são os dois planetas do nosso sistema solar que são gasosos?"
+    enunciado: "Quais são os dois planetas do nosso sistema solar que são gasosos?",
     alternativas:["Saturno", "Júpiter"],
   },
   {
-    enunciado: "Quais são os dois oceanos que banham a América do Sul?"
+    enunciado: "Quais são os dois oceanos que banham a América do Sul?",
     alternativas: ["Oceano Atlântico", "Oceano Pacífico"],
   },
   {
-    enunciado: "Quais são os dois países que fazem parte do Reino Unido?"
+    enunciado: "Quais são os dois países que fazem parte do Reino Unido?",
     alternativas:["Inglaterra", "Escócia"],
   },
 ];
