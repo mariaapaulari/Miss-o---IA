@@ -91,5 +91,6 @@ function mostraAlternativas() {
   atual++;
   mostraPergunta();
 }
-}
+
 mostraPergunta();
+}
